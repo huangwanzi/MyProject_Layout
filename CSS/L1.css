@@ -1,0 +1,64 @@
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.logo {
+    height: 45px;
+    width: 450px;
+    background-color: powderblue;
+    margin-top: 5px;
+}
+
+.nav {
+    height: 75px;
+    width: 450px;
+    background-color: powderblue;
+    margin-top: 5px;
+}
+
+.banner {
+    height: 100px;
+    width: 450px;
+    background-color: powderblue;
+    margin-top: 5px;
+}
+
+.sideBody {
+    width: 445px;
+    margin-top: 5px;
+    padding-right: 12px;
+    padding-left: 8px;
+}
+
+.side_bar {
+    grid-area: side_bar;
+    height: 200px;
+    width: 100%;
+    background-color: powderblue;
+    text-align: center;
+
+}
+
+.body_area {
+    grid-area: body_area;
+    height: 200px;
+    width: 100%;
+    background-color: powderblue;
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'side_bar body_area body_area body_area body_area body_area body_area body_area';
+
+}
+
+.footer {
+    height: 30px;
+    width: 450px;
+    background-color: powderblue;
+    margin-top: 5px;
+}

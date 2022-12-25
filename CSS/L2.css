@@ -1,0 +1,70 @@
+        .center {
+            text-align: center;
+            margin: auto;
+        }
+
+        .logo {
+            height: 45px;
+            width: 450px;
+            background-color: powderblue;
+            margin-top: 5px;
+        }
+
+        .benner {
+            height: 100px;
+            width: 450px;
+            background-color: powderblue;
+            margin-top: 5px;
+        }
+
+        .intro {
+            height: 85px;
+            width: 450px;
+            background-color: powderblue;
+            margin-top: 5px;
+        }
+
+        .sideBody {
+            width: 450px;
+            margin-top: 5px;
+
+        }
+
+        .Box1 {
+            grid-area: Box1;
+            height: 200px;
+            width: 100%;
+            background-color: powderblue;
+            text-align: center;
+
+        }
+
+        .Box2 {
+            grid-area: Box2;
+            height: 200px;
+            width: 100%;
+            background-color: powderblue;
+
+        }
+
+        .Box3 {
+            grid-area: Box3;
+            height: 200px;
+            width: 100%;
+            background-color: powderblue;
+
+
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas: 'Box1 Box2 Box3';
+            gap: 5px;
+        }
+
+        .footer {
+            height: 30px;
+            width: 450px;
+            background-color: powderblue;
+            margin-top: 5px;
+        }
